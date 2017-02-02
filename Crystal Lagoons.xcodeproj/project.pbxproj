@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F8C11111E43A6AD007560CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C11101E43A6AD007560CE /* AppDelegate.swift */; };
+		9F8C11131E43A6AD007560CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C11121E43A6AD007560CE /* ViewController.swift */; };
+		9F8C11161E43A6AD007560CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8C11141E43A6AD007560CE /* Main.storyboard */; };
+		9F8C11191E43A6AD007560CE /* Crystal_Lagoons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C11171E43A6AD007560CE /* Crystal_Lagoons.xcdatamodeld */; };
+		9F8C111B1E43A6AD007560CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8C111A1E43A6AD007560CE /* Assets.xcassets */; };
+		9F8C111E1E43A6AD007560CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8C111C1E43A6AD007560CE /* LaunchScreen.storyboard */; };
+		9F8C11291E43A6AD007560CE /* Crystal_LagoonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C11281E43A6AD007560CE /* Crystal_LagoonsTests.swift */; };
+		9F8C11341E43A6AD007560CE /* Crystal_LagoonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C11331E43A6AD007560CE /* Crystal_LagoonsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F8C11251E43A6AD007560CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8C11051E43A6AD007560CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8C110C1E43A6AD007560CE;
+			remoteInfo = "Crystal Lagoons";
+		};
+		9F8C11301E43A6AD007560CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8C11051E43A6AD007560CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8C110C1E43A6AD007560CE;
+			remoteInfo = "Crystal Lagoons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F8C110D1E43A6AD007560CE /* Crystal Lagoons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crystal Lagoons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8C11101E43A6AD007560CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F8C11121E43A6AD007560CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F8C11151E43A6AD007560CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F8C11181E43A6AD007560CE /* Crystal_Lagoons.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Crystal_Lagoons.xcdatamodel; sourceTree = "<group>"; };
+		9F8C111A1E43A6AD007560CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F8C111D1E43A6AD007560CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F8C111F1E43A6AD007560CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8C11241E43A6AD007560CE /* Crystal LagoonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crystal LagoonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8C11281E43A6AD007560CE /* Crystal_LagoonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crystal_LagoonsTests.swift; sourceTree = "<group>"; };
+		9F8C112A1E43A6AD007560CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8C112F1E43A6AD007560CE /* Crystal LagoonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crystal LagoonsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8C11331E43A6AD007560CE /* Crystal_LagoonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crystal_LagoonsUITests.swift; sourceTree = "<group>"; };
+		9F8C11351E43A6AD007560CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F8C110A1E43A6AD007560CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8C11211E43A6AD007560CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8C112C1E43A6AD007560CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F8C11041E43A6AD007560CE = {
+			isa = PBXGroup;
+			children = (
+				9F8C110F1E43A6AD007560CE /* Crystal Lagoons */,
+				9F8C11271E43A6AD007560CE /* Crystal LagoonsTests */,
+				9F8C11321E43A6AD007560CE /* Crystal LagoonsUITests */,
+				9F8C110E1E43A6AD007560CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F8C110E1E43A6AD007560CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8C110D1E43A6AD007560CE /* Crystal Lagoons.app */,
+				9F8C11241E43A6AD007560CE /* Crystal LagoonsTests.xctest */,
+				9F8C112F1E43A6AD007560CE /* Crystal LagoonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F8C110F1E43A6AD007560CE /* Crystal Lagoons */ = {
+			isa = PBXGroup;
+			children = (
+				9F8C11101E43A6AD007560CE /* AppDelegate.swift */,
+				9F8C11121E43A6AD007560CE /* ViewController.swift */,
+				9F8C11141E43A6AD007560CE /* Main.storyboard */,
+				9F8C111A1E43A6AD007560CE /* Assets.xcassets */,
+				9F8C111C1E43A6AD007560CE /* LaunchScreen.storyboard */,
+				9F8C111F1E43A6AD007560CE /* Info.plist */,
+				9F8C11171E43A6AD007560CE /* Crystal_Lagoons.xcdatamodeld */,
+			);
+			path = "Crystal Lagoons";
+			sourceTree = "<group>";
+		};
+		9F8C11271E43A6AD007560CE /* Crystal LagoonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F8C11281E43A6AD007560CE /* Crystal_LagoonsTests.swift */,
+				9F8C112A1E43A6AD007560CE /* Info.plist */,
+			);
+			path = "Crystal LagoonsTests";
+			sourceTree = "<group>";
+		};
+		9F8C11321E43A6AD007560CE /* Crystal LagoonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F8C11331E43A6AD007560CE /* Crystal_LagoonsUITests.swift */,
+				9F8C11351E43A6AD007560CE /* Info.plist */,
+			);
+			path = "Crystal LagoonsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F8C110C1E43A6AD007560CE /* Crystal Lagoons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8C11381E43A6AD007560CE /* Build configuration list for PBXNativeTarget "Crystal Lagoons" */;
+			buildPhases = (
+				9F8C11091E43A6AD007560CE /* Sources */,
+				9F8C110A1E43A6AD007560CE /* Frameworks */,
+				9F8C110B1E43A6AD007560CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crystal Lagoons";
+			productName = "Crystal Lagoons";
+			productReference = 9F8C110D1E43A6AD007560CE /* Crystal Lagoons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F8C11231E43A6AD007560CE /* Crystal LagoonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8C113B1E43A6AD007560CE /* Build configuration list for PBXNativeTarget "Crystal LagoonsTests" */;
+			buildPhases = (
+				9F8C11201E43A6AD007560CE /* Sources */,
+				9F8C11211E43A6AD007560CE /* Frameworks */,
+				9F8C11221E43A6AD007560CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8C11261E43A6AD007560CE /* PBXTargetDependency */,
+			);
+			name = "Crystal LagoonsTests";
+			productName = "Crystal LagoonsTests";
+			productReference = 9F8C11241E43A6AD007560CE /* Crystal LagoonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F8C112E1E43A6AD007560CE /* Crystal LagoonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8C113E1E43A6AD007560CE /* Build configuration list for PBXNativeTarget "Crystal LagoonsUITests" */;
+			buildPhases = (
+				9F8C112B1E43A6AD007560CE /* Sources */,
+				9F8C112C1E43A6AD007560CE /* Frameworks */,
+				9F8C112D1E43A6AD007560CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8C11311E43A6AD007560CE /* PBXTargetDependency */,
+			);
+			name = "Crystal LagoonsUITests";
+			productName = "Crystal LagoonsUITests";
+			productReference = 9F8C112F1E43A6AD007560CE /* Crystal LagoonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F8C11051E43A6AD007560CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Geovanne Salinas";
+				TargetAttributes = {
+					9F8C110C1E43A6AD007560CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					9F8C11231E43A6AD007560CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F8C110C1E43A6AD007560CE;
+					};
+					9F8C112E1E43A6AD007560CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F8C110C1E43A6AD007560CE;
+					};
+				};
+			};
+			buildConfigurationList = 9F8C11081E43A6AD007560CE /* Build configuration list for PBXProject "Crystal Lagoons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F8C11041E43A6AD007560CE;
+			productRefGroup = 9F8C110E1E43A6AD007560CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F8C110C1E43A6AD007560CE /* Crystal Lagoons */,
+				9F8C11231E43A6AD007560CE /* Crystal LagoonsTests */,
+				9F8C112E1E43A6AD007560CE /* Crystal LagoonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F8C110B1E43A6AD007560CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8C111E1E43A6AD007560CE /* LaunchScreen.storyboard in Resources */,
+				9F8C111B1E43A6AD007560CE /* Assets.xcassets in Resources */,
+				9F8C11161E43A6AD007560CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8C11221E43A6AD007560CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8C112D1E43A6AD007560CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F8C11091E43A6AD007560CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8C11131E43A6AD007560CE /* ViewController.swift in Sources */,
+				9F8C11191E43A6AD007560CE /* Crystal_Lagoons.xcdatamodeld in Sources */,
+				9F8C11111E43A6AD007560CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8C11201E43A6AD007560CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8C11291E43A6AD007560CE /* Crystal_LagoonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8C112B1E43A6AD007560CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8C11341E43A6AD007560CE /* Crystal_LagoonsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F8C11261E43A6AD007560CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F8C110C1E43A6AD007560CE /* Crystal Lagoons */;
+			targetProxy = 9F8C11251E43A6AD007560CE /* PBXContainerItemProxy */;
+		};
+		9F8C11311E43A6AD007560CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F8C110C1E43A6AD007560CE /* Crystal Lagoons */;
+			targetProxy = 9F8C11301E43A6AD007560CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F8C11141E43A6AD007560CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8C11151E43A6AD007560CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F8C111C1E43A6AD007560CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8C111D1E43A6AD007560CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F8C11361E43A6AD007560CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9F8C11371E43A6AD007560CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F8C11391E43A6AD007560CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crystal Lagoons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CrystalLagoons.Crystal-Lagoons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F8C113A1E43A6AD007560CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crystal Lagoons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CrystalLagoons.Crystal-Lagoons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F8C113C1E43A6AD007560CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crystal LagoonsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CrystalLagoons.Crystal-LagoonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crystal Lagoons.app/Crystal Lagoons";
+			};
+			name = Debug;
+		};
+		9F8C113D1E43A6AD007560CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crystal LagoonsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CrystalLagoons.Crystal-LagoonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crystal Lagoons.app/Crystal Lagoons";
+			};
+			name = Release;
+		};
+		9F8C113F1E43A6AD007560CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Crystal LagoonsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CrystalLagoons.Crystal-LagoonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Crystal Lagoons";
+			};
+			name = Debug;
+		};
+		9F8C11401E43A6AD007560CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Crystal LagoonsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CrystalLagoons.Crystal-LagoonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Crystal Lagoons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F8C11081E43A6AD007560CE /* Build configuration list for PBXProject "Crystal Lagoons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8C11361E43A6AD007560CE /* Debug */,
+				9F8C11371E43A6AD007560CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8C11381E43A6AD007560CE /* Build configuration list for PBXNativeTarget "Crystal Lagoons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8C11391E43A6AD007560CE /* Debug */,
+				9F8C113A1E43A6AD007560CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F8C113B1E43A6AD007560CE /* Build configuration list for PBXNativeTarget "Crystal LagoonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8C113C1E43A6AD007560CE /* Debug */,
+				9F8C113D1E43A6AD007560CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F8C113E1E43A6AD007560CE /* Build configuration list for PBXNativeTarget "Crystal LagoonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8C113F1E43A6AD007560CE /* Debug */,
+				9F8C11401E43A6AD007560CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F8C11171E43A6AD007560CE /* Crystal_Lagoons.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F8C11181E43A6AD007560CE /* Crystal_Lagoons.xcdatamodel */,
+			);
+			currentVersion = 9F8C11181E43A6AD007560CE /* Crystal_Lagoons.xcdatamodel */;
+			path = Crystal_Lagoons.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F8C11051E43A6AD007560CE /* Project object */;
+}
